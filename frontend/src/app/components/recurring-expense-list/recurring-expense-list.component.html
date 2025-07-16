@@ -1,0 +1,6 @@
+<h2>Recurring Expenses</h2>
+<ul>
+  <li *ngFor="let exp of recurringExpenses">
+    {{ exp.label }} - {{ exp.amount }} ({{ exp.interval }})
+  </li>
+</ul>
